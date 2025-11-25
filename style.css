@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f7f7f7;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.game-container {
+    text-align: center;
+}
+
+canvas {
+    border-bottom: 2px solid #535353;
+    background-color: #fff;
+    display: block;
+    margin: 0 auto;
+    /* 讓手機版也能自適應寬度 */
+    max-width: 100%; 
+}
+
+p {
+    color: #535353;
+    margin-top: 10px;
+}
